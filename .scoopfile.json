@@ -1,0 +1,79 @@
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main.git",
+            "Updated": {
+                "value": "\/Date(1692937552000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Friday, August 25, 2023 06:25:52"
+            },
+            "Manifests": 1217
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "23.01",
+            "Updated": "\/Date(1691477334418)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "asciidoctorj",
+            "Version": "3.0.0-alpha.1",
+            "Updated": "\/Date(1692622199454)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "docker",
+            "Version": "24.0.5",
+            "Updated": "\/Date(1691058461838)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "flyway",
+            "Version": "9.21.1",
+            "Updated": "\/Date(1691054533833)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gh",
+            "Version": "2.32.1",
+            "Updated": "\/Date(1691054656020)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "jq",
+            "Version": "1.6",
+            "Updated": "\/Date(1690377330422)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "pandoc",
+            "Version": "3.1.6.1",
+            "Updated": "\/Date(1692619956778)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ruby",
+            "Version": "3.2.2-1",
+            "Updated": "\/Date(1692945994472)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sqlite",
+            "Version": "3.42.0",
+            "Updated": "\/Date(1692264154678)\/"
+        }
+    ]
+}
