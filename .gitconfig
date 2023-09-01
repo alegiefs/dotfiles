@@ -1,0 +1,8 @@
+[user]
+	name = Alekasnder Giera
+	email = aleksander.giera@tietoevry.com
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
