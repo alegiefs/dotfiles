@@ -4,11 +4,11 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1692937552000)\/",
+                "value": "\/Date(1693917049000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, August 25, 2023 06:25:52"
+                "DateTime": "Tuesday, September 5, 2023 14:30:49"
             },
-            "Manifests": 1217
+            "Manifests": 1241
         }
     ],
     "apps": [
@@ -25,6 +25,13 @@
             "Name": "asciidoctorj",
             "Version": "3.0.0-alpha.1",
             "Updated": "\/Date(1692622199454)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "busybox",
+            "Version": "5181-g5c1a3b00e",
+            "Updated": "\/Date(1693917421732)\/"
         },
         {
             "Info": "",
