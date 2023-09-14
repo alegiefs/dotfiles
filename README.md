@@ -48,3 +48,15 @@ scoop import .scoopfile.json
 7f8237c2 0964b67f bccf8a93 332528fa 11e5ab43 2a6226a6 ceb197ab 7f03c061
 
 `bash install.sh`
+
+### Fonts
+
+Install JetBrainsMono Nerd Fonts from (NerdFonts)[www.nerdfonts.com]
+
+Unpack them all and RightClick to install in Windows.
+
+### NVIM
+
+Create ~/.config/nvim config directory and create symlink to it from ~/AppData/Local and name it nvim.
+
+Add `vim.opt.shell = 'cmd.exe'` to the `init.lua` file for be able to run commands.
