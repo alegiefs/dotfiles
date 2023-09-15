@@ -4,11 +4,11 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1693917049000)\/",
+                "value": "\/Date(1694694630000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Tuesday, September 5, 2023 14:30:49"
+                "DateTime": "Thursday, September 14, 2023 14:30:30"
             },
-            "Manifests": 1241
+            "Manifests": 1246
         }
     ],
     "apps": [
@@ -64,9 +64,30 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "mingw",
+            "Version": "13.1.0-rt_v11-rev1",
+            "Updated": "\/Date(1694698916112)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.9.2",
+            "Updated": "\/Date(1694600628247)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "pandoc",
             "Version": "3.1.6.1",
             "Updated": "\/Date(1692619956778)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ripgrep",
+            "Version": "13.0.0",
+            "Updated": "\/Date(1694674458603)\/"
         },
         {
             "Info": "",
