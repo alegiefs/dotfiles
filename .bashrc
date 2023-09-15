@@ -12,4 +12,5 @@ export EDITOR=nvim
 
 alias config='git --git-dir=/c/Users/gieraale/.cfg/ --work-tree=/c/Users/gieraale'
 alias vim='nvim'
+alias vimdoc='nvim ~/DATA/txt'
 alias logs='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/logs/eam-cxf.log'

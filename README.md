@@ -57,6 +57,7 @@ Unpack them all and RightClick to install in Windows.
 
 ### NVIM
 
-Create ~/.config/nvim config directory and create symlink to it from ~/AppData/Local and name it nvim.
+Create ~/.config/nvim config directory and create symlink(in cmd.exe) to it from ~/AppData/Local and name it nvim.
 
+`mklink C:\Users\<username>\.config\nvim C:\Users\<username>\AppData\Local\nvim`
 Add `vim.opt.shell = 'cmd.exe'` to the `init.lua` file for be able to run commands.
