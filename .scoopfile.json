@@ -4,11 +4,11 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1694694630000)\/",
+                "value": "\/Date(1695290825000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Thursday, September 14, 2023 14:30:30"
+                "DateTime": "Thursday, September 21, 2023 12:07:05"
             },
-            "Manifests": 1246
+            "Manifests": 1247
         }
     ],
     "apps": [
@@ -60,6 +60,13 @@
             "Name": "jq",
             "Version": "1.6",
             "Updated": "\/Date(1690377330422)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "make",
+            "Version": "4.4.1",
+            "Updated": "\/Date(1695297468061)\/"
         },
         {
             "Info": "",
