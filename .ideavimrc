@@ -23,7 +23,7 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
 
 "" Set relativenumber
-set relativenumber
+set number relativenumber
 
 "" Set Clipboard to system
 set clipboard+=unnamed

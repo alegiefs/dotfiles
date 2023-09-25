@@ -10,6 +10,9 @@ export MANPATH=$MANPATH:$HOME/share/man
 
 export EDITOR=nvim
 
+export DOCKER_HOST=tcp://localhost:2375
+export DOCKER_TLS_VERIFY=
+
 alias config='git --git-dir=/c/Users/gieraale/.cfg/ --work-tree=/c/Users/gieraale'
 alias vim='nvim'
 alias vimtxt='nvim ~/DATA/txt'
@@ -17,5 +20,3 @@ alias logs='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/lo
 alias vimc='nvim ~/AppData/Local/nvim'
 alias vimd='nvim ~/DATA/md'
 alias cdser='cd ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4'
-alias docker='wsl docker'
-alias docker-compose='wsl docker-compose'

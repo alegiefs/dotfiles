@@ -61,3 +61,29 @@ Create ~/.config/nvim config directory and create symlink(in cmd.exe) to it from
 
 `mklink C:\Users\<username>\.config\nvim C:\Users\<username>\AppData\Local\nvim`
 Add `vim.opt.shell = 'cmd.exe'` to the `init.lua` file for be able to run commands.
+
+
+## WSL
+
+### Installing WSL
+
+Install from Microsoft store or run
+
+`wsl --install`
+
+### Docker
+
+Install docker from sources on Ubuntu.
+
+#### Expose docker daemon via TCP 
+
+Create confifg Drop-In File `/etc/systemd/system/docker.service.d/docker.conf`
+
+And paste __-H__ option which expose API over TCP:
+```
+[Service]
+ExecStart=
+ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -H tcp://0.0.0.0:2375
+```
+
+First blank __ExecStart=__ is needed due to Drop-In file requirement: https://www.freedesktop.org/software/systemd/man/systemd.unit.html#id-1.14.3
