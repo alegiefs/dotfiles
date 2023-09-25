@@ -51,7 +51,7 @@ scoop import .scoopfile.json
 
 ### Fonts
 
-Install JetBrainsMono Nerd Fonts from (NerdFonts)[www.nerdfonts.com]
+Install JetBrainsMono Nerd Fonts from [NerdFonts](www.nerdfonts.com)
 
 Unpack them all and RightClick to install in Windows.
 
@@ -87,3 +87,5 @@ ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 ```
 
 First blank __ExecStart=__ is needed due to Drop-In file requirement: https://www.freedesktop.org/software/systemd/man/systemd.unit.html#id-1.14.3
+
+More on that on [StackOverflow](https://askubuntu.com/questions/659267/how-do-i-override-or-configure-systemd-services)
