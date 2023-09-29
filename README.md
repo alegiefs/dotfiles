@@ -89,3 +89,14 @@ ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 First blank __ExecStart=__ is needed due to Drop-In file requirement: https://www.freedesktop.org/software/systemd/man/systemd.unit.html#id-1.14.3
 
 More on that on [StackOverflow](https://askubuntu.com/questions/659267/how-do-i-override-or-configure-systemd-services)
+##### On Windows add DOCKER_HOST environmental variable with value: tcp://localhost:2375
+#### Opening WSL on the startup
+
+CTR + r -> create file wsl-startup.vbs
+
+```
+# change '<Distro>' to the distro name you are using.
+set ws=wscript.CreateObject("wscript.shell")
+ws.run "wsl -d <Distro>", 0
+```
+
