@@ -40,3 +40,19 @@ set clipboard^=unnamedplus,unnamed
 
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
+
+"" Mappings
+nmap gb <Action>(Back)
+nmap gD <Action>(GotoTypeDeclaration)
+nmap gf <Action>(Forward)
+nmap gl <Action>(QuickJavaDoc)
+nmap gi <Action>(GotoImplementation)
+nmap gy <Action>(ShowErrorDescription)
+
+nmap <leader>b <Action>(ToggleLineBreakpoint)
+nmap <leader>c <Action>(CallHierarchy)
+nmap <leader>r <Action>(Refactorings.QuickListPopupAction)
+nmap <leader>s <Action>(ShowUsages)
+nmap <leader>u <Action>(FindUsages)
+nmap <leader>v <Action>(Vcs.QuickListPopupAction)
+nmap <leader>x <Action>(HideAllWindows)
