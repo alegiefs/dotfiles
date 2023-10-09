@@ -4,11 +4,11 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1695290825000)\/",
+                "value": "\/Date(1696509096000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Thursday, September 21, 2023 12:07:05"
+                "DateTime": "Thursday, October 5, 2023 14:31:36"
             },
-            "Manifests": 1247
+            "Manifests": 1254
         }
     ],
     "apps": [
@@ -39,6 +39,20 @@
             "Name": "docker",
             "Version": "24.0.5",
             "Updated": "\/Date(1691058461838)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "docker-compose",
+            "Version": "2.22.0",
+            "Updated": "\/Date(1695641346747)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "docker-machine",
+            "Version": "0.16.2",
+            "Updated": "\/Date(1695383922070)\/"
         },
         {
             "Info": "",
@@ -102,6 +116,13 @@
             "Name": "ruby",
             "Version": "3.2.2-1",
             "Updated": "\/Date(1692945994472)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "rust",
+            "Version": "1.72.1",
+            "Updated": "\/Date(1695995558195)\/"
         },
         {
             "Info": "",
