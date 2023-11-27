@@ -25,6 +25,9 @@ Plug 'tpope/vim-commentary'
 set quickscope
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
+" Surround plugin to work
+set surround
+
 "" Set relativenumber
 set number relativenumber
 
@@ -51,7 +54,7 @@ nmap gy <Action>(ShowErrorDescription)
 
 nmap <leader>b <Action>(ToggleLineBreakpoint)
 nmap <leader>c <Action>(CallHierarchy)
-nmap <leader>r <Action>(Refactorings.QuickListPopupAction)
+map <leader>r <Action>(Refactorings.QuickListPopupAction)
 nmap <leader>s <Action>(ShowUsages)
 nmap <leader>u <Action>(FindUsages)
 nmap <leader>v <Action>(Vcs.QuickListPopupAction)

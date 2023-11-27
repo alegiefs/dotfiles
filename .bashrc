@@ -10,7 +10,7 @@ export MANPATH=$MANPATH:$HOME/share/man
 
 export EDITOR=nvim
 
-export DOCKER_HOST=tcp://127.0.0.1:2375
+export DOCKER_HOST=tcp://localhost:2375
 export DOCKER_TLS_VERIFY=
 
 alias config='git --git-dir=/c/Users/gieraale/.cfg/ --work-tree=/c/Users/gieraale'
@@ -20,6 +20,11 @@ alias logs='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/lo
 alias vimc='nvim ~/AppData/Local/nvim'
 alias vimd='nvim ~/DATA/md'
 alias cdser='cd ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4'
+alias vimt='nvim -p ~/DATA/txt/daily.md ~/DATA/txt ~'
 
 #SSH to servers
 source ~/.ssh/.sshalias
+
+#java change
+alias java8='sdk default java 8.0.372-tem && sdk use java 8.0.372-tem'
+alias java11='sdk default java 11.0.20.1-tem && sdk use java 11.0.20.1-tem'
