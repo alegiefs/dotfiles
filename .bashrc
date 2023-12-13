@@ -28,3 +28,7 @@ source ~/.ssh/.sshalias
 #java change
 alias java8='sdk default java 8.0.372-tem && sdk use java 8.0.372-tem'
 alias java11='sdk default java 11.0.20.1-tem && sdk use java 11.0.20.1-tem'
+
+
+#commands
+alias port8080='netstat -ano | grep 8080'
