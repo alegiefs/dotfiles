@@ -1,5 +1,5 @@
 [user]
-	name = Alekasnder Giera
+	name = Aleksander Giera
 	email = aleksander.giera@tietoevry.com
 [difftool "sourcetree"]
 	cmd = "'' "
@@ -8,3 +8,7 @@
 	trustExitCode = true
 [core]
 	longpaths = true
+[alias]
+	co = checkout
+	ci = commit
+	amend = commit --amend
