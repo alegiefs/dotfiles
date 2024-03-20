@@ -12,3 +12,7 @@
 	co = checkout
 	ci = commit
 	amend = commit --amend
+[rerere]
+	enabled = true
+[branch]
+	sort = -committerdate

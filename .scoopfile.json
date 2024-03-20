@@ -1,14 +1,24 @@
 {
     "buckets": [
         {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1710923310000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Wednesday, March 20, 2024 09:28:30"
+            },
+            "Manifests": 1995
+        },
+        {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1696509096000)\/",
+                "value": "\/Date(1710923160000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Thursday, October 5, 2023 14:31:36"
+                "DateTime": "Wednesday, March 20, 2024 09:26:00"
             },
-            "Manifests": 1254
+            "Manifests": 1310
         }
     ],
     "apps": [
@@ -28,6 +38,13 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "bruno",
+            "Version": "1.10.0",
+            "Updated": "\/Date(1710159992680)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "busybox",
             "Version": "5181-g5c1a3b00e",
@@ -35,17 +52,24 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "dbeaver",
+            "Version": "23.2.2",
+            "Updated": "\/Date(1697461268170)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "docker",
-            "Version": "24.0.5",
-            "Updated": "\/Date(1691058461838)\/"
+            "Version": "24.0.6",
+            "Updated": "\/Date(1697713492316)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "docker-compose",
-            "Version": "2.22.0",
-            "Updated": "\/Date(1695641346747)\/"
+            "Version": "2.23.0",
+            "Updated": "\/Date(1697713499222)\/"
         },
         {
             "Info": "",
@@ -58,22 +82,36 @@
             "Info": "",
             "Source": "main",
             "Name": "flyway",
-            "Version": "9.21.1",
-            "Updated": "\/Date(1691054533833)\/"
+            "Version": "9.22.3",
+            "Updated": "\/Date(1697713523843)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.32.1",
-            "Updated": "\/Date(1691054656020)\/"
+            "Version": "2.37.0",
+            "Updated": "\/Date(1697713528928)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "helm",
+            "Version": "3.13.1",
+            "Updated": "\/Date(1698656121787)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "hwinfo",
+            "Version": "7.68-5300",
+            "Updated": "\/Date(1705059269762)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "jq",
-            "Version": "1.6",
-            "Updated": "\/Date(1690377330422)\/"
+            "Version": "1.7",
+            "Updated": "\/Date(1697713532917)\/"
         },
         {
             "Info": "",
@@ -92,6 +130,20 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "minikube",
+            "Version": "1.31.2",
+            "Updated": "\/Date(1698737000010)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "mkcert",
+            "Version": "1.4.4",
+            "Updated": "\/Date(1710932769645)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "neovim",
             "Version": "0.9.2",
             "Updated": "\/Date(1694600628247)\/"
@@ -99,9 +151,37 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "nu",
+            "Version": "0.86.0",
+            "Updated": "\/Date(1698308811583)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "openshift-okd-client",
+            "Version": "4.14.0-0.okd-2023-10-28-073550",
+            "Updated": "\/Date(1698656332237)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "oracle-instant-client",
+            "Version": "21.12.0.0.0",
+            "Updated": "\/Date(1700571515084)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "oracle-instant-client-sqlplus",
+            "Version": "21.12.0.0.0",
+            "Updated": "\/Date(1700571516222)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "pandoc",
-            "Version": "3.1.6.1",
-            "Updated": "\/Date(1692619956778)\/"
+            "Version": "3.1.8",
+            "Updated": "\/Date(1697713567007)\/"
         },
         {
             "Info": "",
@@ -121,15 +201,36 @@
             "Info": "",
             "Source": "main",
             "Name": "rust",
-            "Version": "1.72.1",
-            "Updated": "\/Date(1695995558195)\/"
+            "Version": "1.73.0",
+            "Updated": "\/Date(1697713776879)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "sqlite",
-            "Version": "3.42.0",
-            "Updated": "\/Date(1692264154678)\/"
+            "Version": "3.43.2",
+            "Updated": "\/Date(1697713784913)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "tldr",
+            "Version": "0.6.1",
+            "Updated": "\/Date(1700955073144)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wiztree",
+            "Version": "4.19",
+            "Updated": "\/Date(1710338612940)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "yq",
+            "Version": "4.40.3",
+            "Updated": "\/Date(1701690249249)\/"
         }
     ]
 }
