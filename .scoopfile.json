@@ -1,24 +1,34 @@
 {
     "buckets": [
         {
-            "Name": "extras",
-            "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": {
-                "value": "\/Date(1710923310000)\/",
-                "DisplayHint": 2,
-                "DateTime": "Wednesday, March 20, 2024 09:28:30"
-            },
-            "Manifests": 1995
-        },
-        {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1710923160000)\/",
+                "value": "\/Date(1716524866000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Wednesday, March 20, 2024 09:26:00"
+                "DateTime": "Friday, May 24, 2024 06:27:46"
             },
-            "Manifests": 1310
+            "Manifests": 1325
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1716525013000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Friday, May 24, 2024 06:30:13"
+            },
+            "Manifests": 2024
+        },
+        {
+            "Name": "java",
+            "Source": "https://github.com/ScoopInstaller/Java",
+            "Updated": {
+                "value": "\/Date(1716512735000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Friday, May 24, 2024 03:05:35"
+            },
+            "Manifests": 280
         }
     ],
     "apps": [
@@ -26,50 +36,50 @@
             "Info": "",
             "Source": "main",
             "Name": "7zip",
-            "Version": "23.01",
-            "Updated": "\/Date(1691477334418)\/"
+            "Version": "24.05",
+            "Updated": "\/Date(1716533566199)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "asciidoctorj",
-            "Version": "3.0.0-alpha.1",
-            "Updated": "\/Date(1692622199454)\/"
+            "Version": "3.0.0-alpha.2",
+            "Updated": "\/Date(1716533578687)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "bruno",
-            "Version": "1.10.0",
-            "Updated": "\/Date(1710159992680)\/"
+            "Version": "1.18.0",
+            "Updated": "\/Date(1716533592508)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "busybox",
-            "Version": "5181-g5c1a3b00e",
-            "Updated": "\/Date(1693917421732)\/"
+            "Version": "5301-gda71f7c57",
+            "Updated": "\/Date(1716533598622)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "dbeaver",
-            "Version": "23.2.2",
-            "Updated": "\/Date(1697461268170)\/"
+            "Version": "24.0.5",
+            "Updated": "\/Date(1716533615273)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "docker",
-            "Version": "24.0.6",
-            "Updated": "\/Date(1697713492316)\/"
+            "Version": "26.1.3",
+            "Updated": "\/Date(1716533622807)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "docker-compose",
-            "Version": "2.23.0",
-            "Updated": "\/Date(1697713499222)\/"
+            "Version": "2.27.0",
+            "Updated": "\/Date(1716533631956)\/"
         },
         {
             "Info": "",
@@ -82,36 +92,57 @@
             "Info": "",
             "Source": "main",
             "Name": "flyway",
-            "Version": "9.22.3",
-            "Updated": "\/Date(1697713523843)\/"
+            "Version": "10.13.0",
+            "Updated": "\/Date(1716533655788)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.37.0",
-            "Updated": "\/Date(1697713528928)\/"
+            "Version": "2.49.2",
+            "Updated": "\/Date(1716533661363)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.45.1",
+            "Updated": "\/Date(1716533104813)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "helm",
-            "Version": "3.13.1",
-            "Updated": "\/Date(1698656121787)\/"
+            "Version": "3.15.1",
+            "Updated": "\/Date(1716533668541)\/"
         },
         {
             "Info": "",
             "Source": "extras",
             "Name": "hwinfo",
-            "Version": "7.68-5300",
-            "Updated": "\/Date(1705059269762)\/"
+            "Version": "8.02-5440",
+            "Updated": "\/Date(1716533673699)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "jq",
-            "Version": "1.7",
-            "Updated": "\/Date(1697713532917)\/"
+            "Version": "1.7.1",
+            "Updated": "\/Date(1716533677812)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "kubectl",
+            "Version": "1.30.1",
+            "Updated": "\/Date(1716533684906)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "kubeseal",
+            "Version": "0.26.3",
+            "Updated": "\/Date(1716533691778)\/"
         },
         {
             "Info": "",
@@ -124,15 +155,22 @@
             "Info": "",
             "Source": "main",
             "Name": "mingw",
-            "Version": "13.1.0-rt_v11-rev1",
-            "Updated": "\/Date(1694698916112)\/"
+            "Version": "13.2.0-rt_v11-rev1",
+            "Updated": "\/Date(1716533744018)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "miniconda3",
+            "Version": "24.4.0-0",
+            "Updated": "\/Date(1716533793636)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "minikube",
-            "Version": "1.31.2",
-            "Updated": "\/Date(1698737000010)\/"
+            "Version": "1.33.1",
+            "Updated": "\/Date(1716533804947)\/"
         },
         {
             "Info": "",
@@ -152,64 +190,64 @@
             "Info": "",
             "Source": "main",
             "Name": "nu",
-            "Version": "0.86.0",
-            "Updated": "\/Date(1698308811583)\/"
+            "Version": "0.93.0",
+            "Updated": "\/Date(1716533819567)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "openshift-okd-client",
-            "Version": "4.14.0-0.okd-2023-10-28-073550",
-            "Updated": "\/Date(1698656332237)\/"
+            "Version": "4.15.0-0.okd-2024-03-10-010116",
+            "Updated": "\/Date(1716533827705)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "oracle-instant-client",
-            "Version": "21.12.0.0.0",
-            "Updated": "\/Date(1700571515084)\/"
+            "Version": "21.14.0.0.0",
+            "Updated": "\/Date(1716533847379)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "oracle-instant-client-sqlplus",
-            "Version": "21.12.0.0.0",
-            "Updated": "\/Date(1700571516222)\/"
+            "Version": "21.14.0.0.0",
+            "Updated": "\/Date(1716533851703)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "pandoc",
-            "Version": "3.1.8",
-            "Updated": "\/Date(1697713567007)\/"
+            "Version": "3.2",
+            "Updated": "\/Date(1716533863627)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "ripgrep",
-            "Version": "13.0.0",
-            "Updated": "\/Date(1694674458603)\/"
+            "Version": "14.1.0",
+            "Updated": "\/Date(1716533867927)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "ruby",
-            "Version": "3.2.2-1",
-            "Updated": "\/Date(1692945994472)\/"
+            "Version": "3.3.1-1",
+            "Updated": "\/Date(1716533931967)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "rust",
-            "Version": "1.73.0",
-            "Updated": "\/Date(1697713776879)\/"
+            "Version": "1.78.0",
+            "Updated": "\/Date(1716534173309)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "sqlite",
-            "Version": "3.43.2",
-            "Updated": "\/Date(1697713784913)\/"
+            "Version": "3.46.0",
+            "Updated": "\/Date(1716534180266)\/"
         },
         {
             "Info": "",
@@ -229,8 +267,8 @@
             "Info": "",
             "Source": "main",
             "Name": "yq",
-            "Version": "4.40.3",
-            "Updated": "\/Date(1701690249249)\/"
+            "Version": "4.44.1",
+            "Updated": "\/Date(1716534186549)\/"
         }
     ]
 }
