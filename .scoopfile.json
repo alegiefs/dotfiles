@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1716524866000)\/",
+                "value": "\/Date(1718094517000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, May 24, 2024 06:27:46"
+                "DateTime": "Tuesday, June 11, 2024 10:28:37"
             },
-            "Manifests": 1325
+            "Manifests": 1327
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1716525013000)\/",
+                "value": "\/Date(1718107672000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, May 24, 2024 06:30:13"
+                "DateTime": "Tuesday, June 11, 2024 14:07:52"
             },
-            "Manifests": 2024
+            "Manifests": 2036
         },
         {
             "Name": "java",
             "Source": "https://github.com/ScoopInstaller/Java",
             "Updated": {
-                "value": "\/Date(1716512735000)\/",
+                "value": "\/Date(1717863567000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, May 24, 2024 03:05:35"
+                "DateTime": "Saturday, June 8, 2024 18:19:27"
             },
             "Manifests": 280
         }
@@ -50,8 +50,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "bruno",
-            "Version": "1.18.0",
-            "Updated": "\/Date(1716533592508)\/"
+            "Version": "1.18.1",
+            "Updated": "\/Date(1718014369571)\/"
         },
         {
             "Info": "",
@@ -220,6 +220,13 @@
             "Name": "pandoc",
             "Version": "3.2",
             "Updated": "\/Date(1716533863627)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "pdfsam",
+            "Version": "5.2.3",
+            "Updated": "\/Date(1718108766543)\/"
         },
         {
             "Info": "",
