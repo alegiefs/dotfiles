@@ -51,6 +51,8 @@ nmap gf <Action>(Forward)
 nmap gl <Action>(QuickJavaDoc)
 nmap gi <Action>(GotoImplementation)
 nmap gy <Action>(ShowErrorDescription)
+nmap gn <Action>(VcsShowPrevChangeMarker)
+nmap gm <Action>(VcsShowNextChangeMarker)
 
 nmap <leader>b <Action>(ToggleLineBreakpoint)
 nmap <leader>c <Action>(CallHierarchy)
