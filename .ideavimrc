@@ -1,64 +1,91 @@
-" .ideavimrc is a configuration file for IdeaVim plugin. It uses
-"   the same commands as the original .vimrc configuration.
 " You can find a list of commands here: https://jb.gg/h38q75
 " Find more examples here: https://jb.gg/share-ideavimrc
-
-
-"" -- Suggested options --
-" Show a few lines of context around the cursor. Note that this makes the
-" text scroll if you mouse-click near the start or end of the window.
-set scrolloff=5
 let mapleader=" "
-" Do incremental searching.
-set incsearch
 
-" Don't use Ex mode, use Q for formatting.
+set scrolloff=10
+set showmode
+set showcmd
+set number relativenumber
+set clipboard^=unnamedplus,unnamed
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" Surround plugin to work
+set surround
+set highlightedyank
+
 map Q gq
 
-" --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
-
-" Highlight copied text
-Plug 'machakann/vim-highlightedyank'
-" Commentary plugin
-Plug 'tpope/vim-commentary'
 " quick-scope plugin to highlight first letters of words
 set quickscope
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
-" Surround plugin to work
-set surround
-
-"" Set relativenumber
-set number relativenumber
-
-"" Set Clipboard to system
-set clipboard^=unnamedplus,unnamed
-
-"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
-"" Map \r to the Reformat Code action
-"map \r <Action>(ReformatCode)
-
-"" Map <leader>d to start debug
-"map <leader>d <Action>(Debug)
-
-"" Map \b to toggle the breakpoint on the current line
-"map \b <Action>(ToggleLineBreakpoint)
+set which-key
 
 "" Mappings
-nmap gb <Action>(Back)
-nmap gD <Action>(GotoTypeDeclaration)
-nmap gf <Action>(Forward)
-nmap gl <Action>(QuickJavaDoc)
-nmap gi <Action>(GotoImplementation)
-nmap gy <Action>(ShowErrorDescription)
-nmap gn <Action>(VcsShowPrevChangeMarker)
-nmap gm <Action>(VcsShowNextChangeMarker)
-
 nmap <leader>b <Action>(ToggleLineBreakpoint)
 nmap <leader>c <Action>(CallHierarchy)
-map <leader>r <Action>(Refactorings.QuickListPopupAction)
 nmap <leader>s <Action>(ShowUsages)
 nmap <leader>u <Action>(FindUsages)
-nmap <leader>v <Action>(Vcs.QuickListPopupAction)
-nmap <leader>x <Action>(HideAllWindows)
-nmap <leader>wu <Action>(Unsplit)
+
+" Go to code
+nmap <leader>gd <Action>(GotoDeclaration)
+nmap <leader>gD <Action>(GotoTypeDeclaration)
+nmap <leader>gy <Action>(ShowErrorDescription)
+nmap <leader>gi <Action>(GotoImplementation)
+nmap <leader>gu <Action>(ShowUsages)
+nmap <leader>gt <Action>(GotoTest)
+nmap <leader>gb <Action>(Back)
+nmap <leader>gf <Action>(Forward)
+nmap <leader>gl <Action>(QuickJavaDoc)
+nmap <leader>gn <Action>(VcsShowPrevChangeMarker)
+nmap <leader>gm <Action>(VcsShowNextChangeMarker)
+
+" Refactoring
+map <leader>rn <Action>(RenameElement)
+map <leader>rm <Action>(ExtractMethod)
+map <leader>rv <Action>(IntroduceVariable)
+map <leader>rf <Action>(IntroduceField)
+map <leader>rc <Action>(IntroduceConstant)
+map <leader>rs <Action>(ChangeSignature)
+map <leader>rr <Action>(Refactorings.QuickListPopupAction)
+
+" Window splits
+map <leader>wv <Action>(SplitVertically)
+map <leader>ws <Action>(SplitHorizontally)
+map <leader>wu <Action>(Unsplit)
+map <leader>wm <Action>(MoveEditorToOppositeTabGroup)
+
+" File navigation
+map <leader>ff <action>(GotoFile)
+map <leader>fr <action>(RecentFiles)
+map <leader>fc <action>(FindInPath)
+map <leader><leader> <Action>(RecentFiles)
+map <leader>fl <action>(RecentLocations)
+map <leader>fs <action>(NewScratchFile)
+
+" Close active tab
+map <leader>q <action>(CloseContent)
+
+" Display options
+map <leader>dd <action>(ToggleDistractionFreeMode)
+map <leader>dz <action>(ToggleZenMode)
+map <leader>df <action>(ToggleFullScreen)
+
+" Folding
+map <leader>zc :action CollapseAllRegions<CR>
+map <leader>zo :action ExpandAllRegions<CR>
+
+" Comment lines
+map <leader>c <action>(CommentByLineComment)
+
+" Errors
+map <leader>en <Action>(ReSharperGotoNextErrorInSolution)
+map <leader>ep <Action>(ReSharperGotoPrevErrorInSolution)
+
+" Actions
+map <leader>am <action>(ShowIntentionActions)
+map <leader>as <action>(SearchEverywhere)
