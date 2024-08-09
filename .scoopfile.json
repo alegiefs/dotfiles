@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1718094517000)\/",
+                "value": "\/Date(1723177721000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Tuesday, June 11, 2024 10:28:37"
+                "DateTime": "Friday, August 9, 2024 06:28:41"
             },
-            "Manifests": 1327
+            "Manifests": 1337
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1718107672000)\/",
+                "value": "\/Date(1723179507000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Tuesday, June 11, 2024 14:07:52"
+                "DateTime": "Friday, August 9, 2024 06:58:27"
             },
-            "Manifests": 2036
+            "Manifests": 2053
         },
         {
             "Name": "java",
             "Source": "https://github.com/ScoopInstaller/Java",
             "Updated": {
-                "value": "\/Date(1717863567000)\/",
+                "value": "\/Date(1722861110000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Saturday, June 8, 2024 18:19:27"
+                "DateTime": "Monday, August 5, 2024 14:31:50"
             },
             "Manifests": 280
         }
@@ -112,6 +112,13 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "git-quick-stats",
+            "Version": "2.5.6",
+            "Updated": "\/Date(1719566306835)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "helm",
             "Version": "3.15.1",
             "Updated": "\/Date(1716533668541)\/"
@@ -122,6 +129,13 @@
             "Name": "hwinfo",
             "Version": "8.02-5440",
             "Updated": "\/Date(1716533673699)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "jd",
+            "Version": "1.8.1",
+            "Updated": "\/Date(1721302393528)\/"
         },
         {
             "Info": "",
@@ -259,9 +273,23 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "stern",
+            "Version": "1.30.0",
+            "Updated": "\/Date(1723191548400)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "tldr",
             "Version": "0.6.1",
             "Updated": "\/Date(1700955073144)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vcredist-aio",
+            "Version": "0.82.0",
+            "Updated": "\/Date(1719568469921)\/"
         },
         {
             "Info": "",
