@@ -27,22 +27,22 @@ set which-key
 
 "" Mappings
 nmap <leader>b <Action>(ToggleLineBreakpoint)
-nmap <leader>c <Action>(CallHierarchy)
+nmap <leader>h <Action>(CallHierarchy)
 nmap <leader>s <Action>(ShowUsages)
 nmap <leader>u <Action>(FindUsages)
 
 " Go to code
-nmap <leader>gd <Action>(GotoDeclaration)
-nmap <leader>gD <Action>(GotoTypeDeclaration)
-nmap <leader>gy <Action>(ShowErrorDescription)
-nmap <leader>gi <Action>(GotoImplementation)
-nmap <leader>gu <Action>(ShowUsages)
-nmap <leader>gt <Action>(GotoTest)
-nmap <leader>gb <Action>(Back)
-nmap <leader>gf <Action>(Forward)
-nmap <leader>gl <Action>(QuickJavaDoc)
-nmap <leader>gn <Action>(VcsShowPrevChangeMarker)
-nmap <leader>gm <Action>(VcsShowNextChangeMarker)
+nmap gd <Action>(GotoDeclaration)
+nmap gD <Action>(GotoTypeDeclaration)
+nmap gy <Action>(ShowErrorDescription)
+nmap gi <Action>(GotoImplementation)
+nmap gu <Action>(ShowUsages)
+nmap gt <Action>(GotoTest)
+nmap gb <Action>(Back)
+nmap gf <Action>(Forward)
+nmap gl <Action>(QuickJavaDoc)
+nmap gn <Action>(VcsShowPrevChangeMarker)
+nmap gm <Action>(VcsShowNextChangeMarker)
 
 " Refactoring
 map <leader>rn <Action>(RenameElement)
