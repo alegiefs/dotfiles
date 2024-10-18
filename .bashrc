@@ -17,10 +17,10 @@ alias config='git --git-dir=/c/Users/gieraale/.cfg/ --work-tree=/c/Users/gieraal
 alias vim='nvim'
 alias vimtxt='nvim ~/DATA/txt'
 alias logs='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/logs/eam-cxf.log'
-alias vimc='nvim ~/AppData/Local/nvim'
+alias vimc='cd ~/AppData/Local/nvim/; nvim ~/AppData/Local/nvim'
 alias vimd='nvim ~/DATA/md'
 alias cdser='cd ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4'
-alias vimt='nvim -p ~/DATA/txt/daily.md ~/DATA/txt ~'
+alias vimt='cd ~/DATA; nvim -p ~/DATA/txt/daily.md ~/DATA/txt ~'
 
 #SSH to servers
 source ~/.ssh/.sshalias
