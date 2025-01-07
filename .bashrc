@@ -39,3 +39,4 @@ alias port8080='netstat -ano | grep 8080'
 
 #kubectl
 alias k=kubecolor
+eval "$(zoxide init --cmd cd bash)"

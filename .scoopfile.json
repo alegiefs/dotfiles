@@ -4,39 +4,39 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1729225786000)\/",
+                "value": "\/Date(1736253138000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, October 18, 2024 06:29:46"
+                "DateTime": "Tuesday, January 7, 2025 13:32:18"
             },
-            "Manifests": 1344
+            "Manifests": 1354
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1729225901000)\/",
+                "value": "\/Date(1736253228000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, October 18, 2024 06:31:41"
+                "DateTime": "Tuesday, January 7, 2025 13:33:48"
             },
-            "Manifests": 2090
+            "Manifests": 2110
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1728811352000)\/",
+                "value": "\/Date(1735892848000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Sunday, October 13, 2024 11:22:32"
+                "DateTime": "Friday, January 3, 2025 09:27:28"
             },
-            "Manifests": 342
+            "Manifests": 345
         },
         {
             "Name": "java",
             "Source": "https://github.com/ScoopInstaller/Java",
             "Updated": {
-                "value": "\/Date(1729196371000)\/",
+                "value": "\/Date(1736212839000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Thursday, October 17, 2024 22:19:31"
+                "DateTime": "Tuesday, January 7, 2025 02:20:39"
             },
             "Manifests": 294
         }
@@ -46,8 +46,8 @@
             "Info": "",
             "Source": "main",
             "Name": "7zip",
-            "Version": "24.05",
-            "Updated": "\/Date(1716533566199)\/"
+            "Version": "24.08",
+            "Updated": "\/Date(1732780726837)\/"
         },
         {
             "Info": "",
@@ -104,6 +104,13 @@
             "Name": "flyway",
             "Version": "10.13.0",
             "Updated": "\/Date(1716533655788)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.57.0",
+            "Updated": "\/Date(1736260336732)\/"
         },
         {
             "Info": "",
@@ -268,6 +275,13 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "postman",
+            "Version": "11.17.0",
+            "Updated": "\/Date(1729585628616)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "ripgrep",
             "Version": "14.1.1",
@@ -291,8 +305,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "spotify",
-            "Version": "1.2.47.364.gf06e5cee",
-            "Updated": "\/Date(1727420172759)\/"
+            "Version": "1.2.53.440.g7b2f582a",
+            "Updated": "\/Date(1736256845242)\/"
         },
         {
             "Info": "",
@@ -335,6 +349,13 @@
             "Name": "yq",
             "Version": "4.44.1",
             "Updated": "\/Date(1716534186549)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "zoxide",
+            "Version": "0.9.6",
+            "Updated": "\/Date(1736260310507)\/"
         }
     ]
 }
