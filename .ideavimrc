@@ -8,6 +8,7 @@ set showcmd
 set number relativenumber
 set clipboard^=unnamedplus,unnamed
 
+"" Plugins
 set ignorecase
 set smartcase
 set incsearch
@@ -17,14 +18,13 @@ set hlsearch
 set surround
 set highlightedyank
 
-map Q gq
+set which-key
 
 " quick-scope plugin to highlight first letters of words
 set quickscope
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
-set which-key
-
+map Q gq
 "" Mappings
 nmap <leader>b <Action>(ToggleLineBreakpoint)
 nmap <leader>h <Action>(CallHierarchy)
@@ -60,10 +60,9 @@ map <leader>wu <Action>(Unsplit)
 map <leader>wm <Action>(MoveEditorToOppositeTabGroup)
 
 " File navigation
-map <leader>ff <action>(GotoFile)
-map <leader>fr <action>(RecentFiles)
-map <leader>fc <action>(FindInPath)
-map <leader><leader> <Action>(RecentFiles)
+map <leader>sf <action>(GotoFile)
+map <leader>s. <action>(RecentFiles)
+map <leader><leader> <Action>(SearchEverywhere)
 map <leader>fl <action>(RecentLocations)
 map <leader>fs <action>(NewScratchFile)
 
@@ -75,12 +74,13 @@ map <leader>dd <action>(ToggleDistractionFreeMode)
 map <leader>dz <action>(ToggleZenMode)
 map <leader>df <action>(ToggleFullScreen)
 
+
 " Folding
 map <leader>zc :action CollapseAllRegions<CR>
 map <leader>zo :action ExpandAllRegions<CR>
 
 " Comment lines
-map <leader>c <action>(CommentByLineComment)
+map gc <action>(CommentByLineComment)
 
 " Errors
 map <leader>en <Action>(ReSharperGotoNextErrorInSolution)
