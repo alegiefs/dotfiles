@@ -4,9 +4,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1737333342000)\/",
+                "value": "\/Date(1738297757000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Monday, January 20, 2025 01:35:42"
+                "DateTime": "Friday, January 31, 2025 05:29:17"
             },
             "Manifests": 1356
         },
@@ -14,19 +14,19 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1737347555000)\/",
+                "value": "\/Date(1738312355000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Monday, January 20, 2025 05:32:35"
+                "DateTime": "Friday, January 31, 2025 09:32:35"
             },
-            "Manifests": 2118
+            "Manifests": 2122
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1737213576000)\/",
+                "value": "\/Date(1737710534000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Saturday, January 18, 2025 16:19:36"
+                "DateTime": "Friday, January 24, 2025 10:22:14"
             },
             "Manifests": 345
         },
@@ -34,9 +34,9 @@
             "Name": "java",
             "Source": "https://github.com/ScoopInstaller/Java",
             "Updated": {
-                "value": "\/Date(1736914828000)\/",
+                "value": "\/Date(1738286300000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Wednesday, January 15, 2025 05:20:28"
+                "DateTime": "Friday, January 31, 2025 02:18:20"
             },
             "Manifests": 294
         }
@@ -67,8 +67,8 @@
             "Info": "",
             "Source": "main",
             "Name": "busybox",
-            "Version": "5301-gda71f7c57",
-            "Updated": "\/Date(1716533598622)\/"
+            "Version": "5467-g9376eebd8",
+            "Updated": "\/Date(1737368674358)\/"
         },
         {
             "Info": "",
@@ -116,15 +116,15 @@
             "Info": "",
             "Source": "main",
             "Name": "gh",
-            "Version": "2.49.2",
-            "Updated": "\/Date(1716533661363)\/"
+            "Version": "2.65.0",
+            "Updated": "\/Date(1737368253298)\/"
         },
         {
             "Info": "",
             "Source": "main",
             "Name": "git",
-            "Version": "2.45.1",
-            "Updated": "\/Date(1716533104813)\/"
+            "Version": "2.47.1.2",
+            "Updated": "\/Date(1738052080175)\/"
         },
         {
             "Info": "",
@@ -303,6 +303,13 @@
         },
         {
             "Info": "",
+            "Source": "main",
+            "Name": "shellcheck",
+            "Version": "0.10.0",
+            "Updated": "\/Date(1738313703628)\/"
+        },
+        {
+            "Info": "",
             "Source": "extras",
             "Name": "spotify",
             "Version": "1.2.55.235.g5eaa0904",
@@ -331,6 +338,13 @@
         },
         {
             "Info": "",
+            "Source": "main",
+            "Name": "uv",
+            "Version": "0.5.25",
+            "Updated": "\/Date(1738232204974)\/"
+        },
+        {
+            "Info": "",
             "Source": "extras",
             "Name": "vcredist-aio",
             "Version": "0.82.0",
@@ -347,8 +361,8 @@
             "Info": "",
             "Source": "main",
             "Name": "yq",
-            "Version": "4.44.1",
-            "Updated": "\/Date(1716534186549)\/"
+            "Version": "4.45.1",
+            "Updated": "\/Date(1737368644308)\/"
         },
         {
             "Info": "",
