@@ -12,6 +12,7 @@
 	co = checkout
 	ci = commit
 	amend = commit --amend
+	adog = log --all --decorate --oneline --graph
 [rerere]
 	enabled = true
 [branch]
