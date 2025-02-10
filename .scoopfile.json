@@ -4,29 +4,29 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1738297757000)\/",
+                "value": "\/Date(1739190725000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, January 31, 2025 05:29:17"
+                "DateTime": "Monday, February 10, 2025 13:32:05"
             },
-            "Manifests": 1356
+            "Manifests": 1357
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1738312355000)\/",
+                "value": "\/Date(1739190838000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, January 31, 2025 09:32:35"
+                "DateTime": "Monday, February 10, 2025 13:33:58"
             },
-            "Manifests": 2122
+            "Manifests": 2127
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1737710534000)\/",
+                "value": "\/Date(1738986692000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, January 24, 2025 10:22:14"
+                "DateTime": "Saturday, February 8, 2025 04:51:32"
             },
             "Manifests": 345
         },
@@ -34,11 +34,11 @@
             "Name": "java",
             "Source": "https://github.com/ScoopInstaller/Java",
             "Updated": {
-                "value": "\/Date(1738286300000)\/",
+                "value": "\/Date(1739064204000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Friday, January 31, 2025 02:18:20"
+                "DateTime": "Sunday, February 9, 2025 02:23:24"
             },
-            "Manifests": 294
+            "Manifests": 296
         }
     ],
     "apps": [
@@ -46,8 +46,8 @@
             "Info": "",
             "Source": "main",
             "Name": "7zip",
-            "Version": "24.08",
-            "Updated": "\/Date(1732780726837)\/"
+            "Version": "24.09",
+            "Updated": "\/Date(1739191196037)\/"
         },
         {
             "Info": "",
@@ -312,8 +312,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "spotify",
-            "Version": "1.2.55.235.g5eaa0904",
-            "Updated": "\/Date(1737356626154)\/"
+            "Version": "1.2.56.502.ga68d2d4f",
+            "Updated": "\/Date(1738324525935)\/"
         },
         {
             "Info": "",
