@@ -96,11 +96,92 @@ Add DOCKER_HOST environmental variable with value: tcp://localhost:2375
 
 #### Opening WSL on the startup
 
-CTR + r -> create file wsl-startup.vbs
-
+create file wsl-startup.vbs
 ```
 # change '<Distro>' to the distro name you are using.
 set ws=wscript.CreateObject("wscript.shell")
 ws.run "wsl -d <Distro>", 0
 ```
+
+Setup registry with autostart:
+How to Automate VBScripts to run at startup.
+
+Step 1
+
+Click Start -> Run -> cmd or Click search and type cmd
+
+Press enter
+
+Type assoc .vbs in command prompt Which should print .vbs=VBSFile
+
+Type ftype VBSFile in command prompt which should print:
+
+vbsfile="%SystemRoot%\System32\WScript.exe" "%1" %*
+
+So, now you know that your vbscript files open with WScript by default.
+
+In command-prompt, type:
+
+reg query HKEY_CLASSES_ROOT\Applications\WScript.exe /s
+If you do not see this:
+
+HKEY_CLASSES_ROOT\Applications\WScript.exe
+    (Standard)    REG_SZ    "%SystemRoot%\System32\WScript.exe" "%1" %*
+Then you need to do the following, if the above is what you see, then you can skip and go to step 3:
+
+Step 2
+
+Go to:
+
+Start
+
+Run
+
+Type in: regedit
+
+Select regedit press enter (or double-click regedit) and allow the program to make changes to your computer
+
+Navigate to: HKEY_CLASSES_ROOT\Applications\WScript.exe (If WScript.exe key does not exist, right-click Applications and create new key, rename it to WScript.exe)
+
+In the empty space on the right, where there are values, right-click and Choose new
+
+Select String Value
+
+Under Name where New Value #1 is highlighted, rename by typing (Standard)
+
+Under Data, double click the empty value and enter the value you got from the previous step
+
+"%SystemRoot%\System32\WScript.exe" "%1" %*
+
+Step 3
+
+If you do not have regedit open, Go to:
+
+Start
+
+Run
+
+Type in: regedit
+
+Select app, press enter and allow the program to make changes to your computer
+
+Else, if regedit is open, then:
+
+Navigate to:
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+
+Right click the run folder in the empty space on the right, where there are values, right-click and choose new
+
+Select Expandable String Value
+
+Under Name where New Value #1 is highlighted, rename by typing your own name e.g. myscript
+
+under Data, double click the empty value and enter this
+
+Make sure its type is REG_EXPAND_SZ, i.e. an expanded string
+
+"%SystemRoot%\System32\WScript.exe" "C:\Users\me\myFolder\mySub-folder\myFile.vbs" "%1" %*
+
+Restart your machine. Your vbs should run automatically
 

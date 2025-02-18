@@ -21,8 +21,10 @@ alias vimd='nvim ~/DATA/md'
 alias vimt='cd ~/DATA; nvim -p ~/DATA/txt/daily.md ~/DATA/txt ~'
 alias vimp='cd ~/PROJECTS/; nvim .'
 
-alias cdser='cd ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4'
-alias logs='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/logs/eam-cxf.log'
+alias cdser19='cd ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4'
+alias cdser='cd ~/Programs/openliberty-javaee8-24.0.0.11/wlp/usr/servers/scs-24.0.0.11'
+alias logs19='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/logs/eam-cxf.log'
+alias logs='less ~/Programs/openliberty-javaee8-24.0.0.11/wlp/usr/servers/scs-24.0.0.11/logs/eam-cxf.log'
 
 #SSH to servers
 source ~/.ssh/.sshalias
