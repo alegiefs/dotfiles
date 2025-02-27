@@ -39,6 +39,7 @@ alias java11='sdk default java 11.0.20.1-tem && sdk use java 11.0.20.1-tem'
 #commands
 alias port8080='netstat -ano | grep 8080'
 
+alias jf=jfrog
 #kubectl
 alias k=kubecolor
 eval "$(zoxide init --cmd cd bash)"

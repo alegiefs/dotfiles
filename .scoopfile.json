@@ -4,39 +4,39 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1739190725000)\/",
+                "value": "\/Date(1740659528000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Monday, February 10, 2025 13:32:05"
+                "DateTime": "Thursday, February 27, 2025 13:32:08"
             },
-            "Manifests": 1357
+            "Manifests": 1383
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1739190838000)\/",
+                "value": "\/Date(1740659690000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Monday, February 10, 2025 13:33:58"
+                "DateTime": "Thursday, February 27, 2025 13:34:50"
             },
-            "Manifests": 2127
+            "Manifests": 2130
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1738986692000)\/",
+                "value": "\/Date(1740479038000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Saturday, February 8, 2025 04:51:32"
+                "DateTime": "Tuesday, February 25, 2025 11:23:58"
             },
-            "Manifests": 345
+            "Manifests": 360
         },
         {
             "Name": "java",
             "Source": "https://github.com/ScoopInstaller/Java",
             "Updated": {
-                "value": "\/Date(1739064204000)\/",
+                "value": "\/Date(1740558241000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Sunday, February 9, 2025 02:23:24"
+                "DateTime": "Wednesday, February 26, 2025 09:24:01"
             },
             "Manifests": 296
         }
@@ -144,8 +144,8 @@
             "Info": "",
             "Source": "extras",
             "Name": "hwinfo",
-            "Version": "8.02-5440",
-            "Updated": "\/Date(1716533673699)\/"
+            "Version": "8.20-5640",
+            "Updated": "\/Date(1739267007595)\/"
         },
         {
             "Info": "",
@@ -160,6 +160,13 @@
             "Name": "JetBrainsMono-NF-Mono",
             "Version": "3.2.1",
             "Updated": "\/Date(1729232669567)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "jfrog",
+            "Version": "2.74.0",
+            "Updated": "\/Date(1740663226811)\/"
         },
         {
             "Info": "",
@@ -307,13 +314,6 @@
             "Name": "shellcheck",
             "Version": "0.10.0",
             "Updated": "\/Date(1738313703628)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "spotify",
-            "Version": "1.2.56.502.ga68d2d4f",
-            "Updated": "\/Date(1738324525935)\/"
         },
         {
             "Info": "",
