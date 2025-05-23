@@ -4,41 +4,41 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1740659528000)\/",
+                "value": "\/Date(1747974563000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Thursday, February 27, 2025 13:32:08"
+                "DateTime": "Friday, May 23, 2025 06:29:23"
             },
-            "Manifests": 1383
+            "Manifests": 1389
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1740659690000)\/",
+                "value": "\/Date(1747978092000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Thursday, February 27, 2025 13:34:50"
+                "DateTime": "Friday, May 23, 2025 07:28:12"
             },
-            "Manifests": 2130
+            "Manifests": 2165
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1740479038000)\/",
+                "value": "\/Date(1747297956000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Tuesday, February 25, 2025 11:23:58"
+                "DateTime": "Thursday, May 15, 2025 10:32:36"
             },
-            "Manifests": 360
+            "Manifests": 367
         },
         {
             "Name": "java",
             "Source": "https://github.com/ScoopInstaller/Java",
             "Updated": {
-                "value": "\/Date(1740558241000)\/",
+                "value": "\/Date(1747844777000)\/",
                 "DisplayHint": 2,
-                "DateTime": "Wednesday, February 26, 2025 09:24:01"
+                "DateTime": "Wednesday, May 21, 2025 18:26:17"
             },
-            "Manifests": 296
+            "Manifests": 299
         }
     ],
     "apps": [
@@ -87,6 +87,13 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "docker-buildx",
+            "Version": "0.21.2",
+            "Updated": "\/Date(1741786229646)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "docker-compose",
             "Version": "2.27.0",
             "Updated": "\/Date(1716533631956)\/"
@@ -125,6 +132,13 @@
             "Name": "git",
             "Version": "2.47.1.2",
             "Updated": "\/Date(1738052080175)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git-filter-repo",
+            "Version": "2.47.0",
+            "Updated": "\/Date(1747836147868)\/"
         },
         {
             "Info": "",
@@ -170,10 +184,24 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "jmeter",
+            "Version": "5.6.3",
+            "Updated": "\/Date(1743075490199)\/"
+        },
+        {
+            "Info": "",
             "Source": "main",
             "Name": "jq",
             "Version": "1.7.1",
             "Updated": "\/Date(1716533677812)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "k6",
+            "Version": "0.57.0",
+            "Updated": "\/Date(1743167398281)\/"
         },
         {
             "Info": "",
@@ -286,6 +314,13 @@
             "Name": "postman",
             "Version": "11.17.0",
             "Updated": "\/Date(1729585628616)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "presenterm",
+            "Version": "0.14.0",
+            "Updated": "\/Date(1747984403718)\/"
         },
         {
             "Info": "",
