@@ -43,3 +43,4 @@ alias jf=jfrog
 #kubectl
 alias k=kubecolor
 eval "$(zoxide init --cmd cd bash)"
+eval "$(starship init bash)"

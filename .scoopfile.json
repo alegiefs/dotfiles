@@ -360,6 +360,13 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "starship",
+            "Version": "1.23.0",
+            "Updated": "\/Date(1747985303226)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "stern",
             "Version": "1.30.0",
             "Updated": "\/Date(1723191548400)\/"
@@ -370,6 +377,13 @@
             "Name": "tldr",
             "Version": "0.6.1",
             "Updated": "\/Date(1700955073144)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "tokei",
+            "Version": "12.1.2",
+            "Updated": "\/Date(1747984564713)\/"
         },
         {
             "Info": "",
