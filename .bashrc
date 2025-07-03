@@ -6,6 +6,30 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+set_win_title() {
+  BASEPWD=$(basename "$PWD")
+  echo -ne "\033]0; 📁 $BASEPWD \a" < /dev/null
+  if [[ $PWD == $PREV_PWD ]]; then
+    return
+  fi
+
+  if [[ "$PWD" =~ "$PREV_PWD" && ! -f ".nvmrc" ]]; then
+    return
+  fi
+
+  PREV_PWD=$PWD
+  if [[ -f ".nvmrc" ]]; then
+    nvm use
+    NVM_DIRTY=true
+  elif [[ $NVM_DIRTY = true ]]; then
+    nvm use default
+    NVM_DIRTY=false
+  fi
+}
+starship_precmd_user_func="set_win_title"
+
+
 export MANPATH=$MANPATH:$HOME/share/man
 
 export EDITOR=nvim
@@ -25,6 +49,8 @@ alias cdser19='cd ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4'
 alias cdser='cd ~/Programs/openliberty-javaee8-24.0.0.11/wlp/usr/servers/scs-24.0.0.11'
 alias logs19='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/logs/eam-cxf.log'
 alias logs='less ~/Programs/openliberty-javaee8-24.0.0.11/wlp/usr/servers/scs-24.0.0.11/logs/eam-cxf.log'
+alias sqldeveloper='~/Programs/sqldeveloper-23.1.0.097.1607-no-jre/sqldeveloper/sqldeveloper.exe'
+
 
 #SSH to servers
 source ~/.ssh/.sshalias
