@@ -38,6 +38,7 @@ export DOCKER_HOST=tcp://localhost:2375
 export DOCKER_TLS_VERIFY=
 
 alias config='git --git-dir=/c/Users/gieraale/.cfg/ --work-tree=/c/Users/gieraale'
+alias git-mono='git --git-dir=/c/Users/gieraale/projects/monorepo/.git-mono/ --work-tree=/c/Users/gieraale/projects/monorepo/'
 alias vim='nvim'
 alias vimtxt='nvim ~/DATA/txt'
 alias vimc='cd ~/AppData/Local/nvim/; nvim ~/AppData/Local/nvim'
@@ -68,5 +69,6 @@ alias port8080='netstat -ano | grep 8080'
 alias jf=jfrog
 #kubectl
 alias k=kubecolor
+
 eval "$(zoxide init --cmd cd bash)"
 eval "$(starship init bash)"
