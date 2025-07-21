@@ -22,3 +22,21 @@ elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
 fi
 
 unset env
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+NODE_VERSION="v16.20.0" # e.g. "v22.16.0"
+
+# probably don't need the extra checks from `nvm_version_path`
+# if the specified version is always new that uses the `/versions/node` path
+NVM_VERSION_DIR="$NVM_DIR/versions/node/$NODE_VERSION"
+
+# check if bin path actually exists
+NVM_BIN_DIR="$NVM_VERSION_DIR/bin"
+if [ -d "$NVM_BIN_DIR" ]; then
+  # at this point, assume that PATH does not contain the nvm path, so skip
+  # the grep checks from `nvm_change_path` and always just prepend it to PATH
+  export PATH="$NVM_BIN_DIR:$PATH"
+  export NVM_BIN="$NVM_BIN_DIR"
+  export NVM_INC="$NVM_VERSION_DIR/include/node"
+fi

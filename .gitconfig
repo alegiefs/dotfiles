@@ -17,5 +17,3 @@
 	enabled = true
 [branch]
 	sort = -committerdate
-[maintenance]
-	repo = C:/Users/gieraale/PROJECTS/monorepo/new2/scs-maven-parent
