@@ -49,6 +49,9 @@ export EDITOR=nvim
 export DOCKER_HOST=tcp://localhost:2375
 export DOCKER_TLS_VERIFY=
 
+# this one is to enable Maven Wrapper and Maven Deamon
+export USE_MVND=1
+
 alias config='git --git-dir=/c/Users/gieraale/.cfg/ --work-tree=/c/Users/gieraale'
 alias git-mono='git --git-dir=/c/Users/gieraale/projects/monorepo/.git-mono/ --work-tree=/c/Users/gieraale/projects/monorepo/'
 alias vim='nvim'
@@ -64,7 +67,6 @@ alias logs19='less ~/Programs/wlp-javaee8-19.0.0.4/wlp/usr/servers/scs-19.0.0.4/
 alias logs='less ~/Programs/openliberty-javaee8-24.0.0.11/wlp/usr/servers/scs-24.0.0.11/logs/eam-cxf.log'
 alias sqldeveloper='~/Programs/sqldeveloper-23.1.0.097.1607-no-jre/sqldeveloper/sqldeveloper.exe'
 
-
 #SSH to servers
 source ~/.ssh/.sshalias
 
@@ -79,6 +81,7 @@ alias java11='sdk default java 11.0.20.1-tem && sdk use java 11.0.20.1-tem'
 alias port8080='netstat -ano | grep 8080'
 
 alias jf=jfrog
+alias python3=python
 #kubectl
 alias k=kubecolor
 
