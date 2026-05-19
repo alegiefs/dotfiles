@@ -1,6 +1,6 @@
 [user]
 	name = Aleksander Giera
-	email = aleksander.giera@tietoevry.com
+	email = aleksander.giera@tieto.com
 [difftool "sourcetree"]
 	cmd = "'' "
 [mergetool "sourcetree"]
@@ -10,7 +10,9 @@
 	longpaths = true
 [alias]
 	co = checkout
+	sw = switch
 	ci = commit
+	st = status
 	amend = commit --amend
 	adog = log --all --decorate --oneline --graph
 [rerere]
