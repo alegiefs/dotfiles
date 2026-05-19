@@ -56,7 +56,7 @@ starship_precmd_user_func="set_win_title"
 export MANPATH=$MANPATH:$HOME/share/man
 
 export EDITOR=nvim
-export ZELLIJ_CONFIG_DIR='$HOME/.config/zellij'
+export ZELLIJ_CONFIG_DIR="$HOME/.config/zellij"
 
 
 export DOCKER_HOST=tcp://172.26.19.96:2375
@@ -98,8 +98,7 @@ alias jf=jfrog
 alias python3=python
 #kubectl
 alias k=kubecolor
-eval "$(zoxide init --cmd cd bash)"
+eval "$(zoxide init bash)"
 eval "$(starship init bash)"
-#eval "$(zellij setup --generate-auto-start bash)"
 
 
