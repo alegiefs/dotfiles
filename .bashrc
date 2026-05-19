@@ -1,7 +1,19 @@
+# Prevent double-loading
+# [[ -n "$__BASHRC_LOADED" ]] && return
+# export __BASHRC_LOADED=1
+
+## Debug startup time
+# __SHRC_START=$(date +%s%N)
+## command to time
+# __BASHRC_END=$(date +%s%N)
+# echo "loaded sdk in $(((__BASHRC_END - __BASHRC_START)/1000000)) ms"
+# unset __BASHRC_START __BASHRC_END
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdkinit() {
+  export SDKMAN_DIR="$HOME/.sdkman"
+  [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+}
 
 # nvm
 # NVM_DIR is in `.profile`
@@ -41,13 +53,13 @@ set_win_title() {
 }
 starship_precmd_user_func="set_win_title"
 
-
 export MANPATH=$MANPATH:$HOME/share/man
 
 export EDITOR=nvim
 
-export DOCKER_HOST=tcp://localhost:2375
-export DOCKER_TLS_VERIFY=
+
+export DOCKER_HOST=tcp://172.26.19.96:2375
+export DOCKER_TLS_VERIFY=0
 
 # this one is to enable Maven Wrapper and Maven Deamon
 export USE_MVND=1
@@ -69,6 +81,7 @@ alias sqldeveloper='~/Programs/sqldeveloper-23.1.0.097.1607-no-jre/sqldeveloper/
 
 #SSH to servers
 source ~/.ssh/.sshalias
+source ~/.ssh/.signing-key
 
 #environments variables
 source ~/.env
@@ -84,6 +97,8 @@ alias jf=jfrog
 alias python3=python
 #kubectl
 alias k=kubecolor
-
 eval "$(zoxide init --cmd cd bash)"
 eval "$(starship init bash)"
+#eval "$(zellij setup --generate-auto-start bash)"
+
+
