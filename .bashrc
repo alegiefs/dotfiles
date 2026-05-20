@@ -98,7 +98,7 @@ alias jf=jfrog
 alias python3=python
 #kubectl
 alias k=kubecolor
-eval "$(zoxide init bash)"
 eval "$(starship init bash)"
-
+eval "$(zoxide init bash)"
+alias cd=z
 
