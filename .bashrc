@@ -34,33 +34,33 @@ fi
 set_win_title() {
   BASEPWD=$(basename "$PWD")
   echo -ne "\033]0; 📁 $BASEPWD \a" < /dev/null
-  if [[ $PWD == $PREV_PWD ]]; then
-    return
-  fi
-
-  if [[ "$PWD" =~ "$PREV_PWD" && ! -f ".nvmrc" ]]; then
-    return
-  fi
-
-  PREV_PWD=$PWD
-  if [[ -f ".nvmrc" ]]; then
-    nvm use
-    NVM_DIRTY=true
-  elif [[ $NVM_DIRTY = true ]]; then
-    nvm use default
-    NVM_DIRTY=false
-  fi
+  # if [[ $PWD == $PREV_PWD ]]; then
+  #   return
+  # fi
+  #
+  # if [[ "$PWD" =~ "$PREV_PWD" && ! -f ".nvmrc" ]]; then
+  #   return
+  # fi
+  #
+  # PREV_PWD=$PWD
+  # if [[ -f ".nvmrc" ]]; then
+  #   nvm use
+  #   NVM_DIRTY=true
+  # elif [[ $NVM_DIRTY = true ]]; then
+  #   nvm use default
+  #   NVM_DIRTY=false
+  # fi
 }
 starship_precmd_user_func="set_win_title"
 
 export MANPATH=$MANPATH:$HOME/share/man
 
 export EDITOR=nvim
-export ZELLIJ_CONFIG_DIR="$HOME/.config/zellij"
+export ZELLIJ_CONFIG_DIR='$HOME/.config/zellij'
 
 
 export DOCKER_HOST=tcp://172.26.19.96:2375
-export DOCKER_TLS_VERIFY=0
+export DOCKER_TLS_VERIFY=
 
 # this one is to enable Maven Wrapper and Maven Deamon
 export USE_MVND=1
