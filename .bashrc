@@ -56,7 +56,7 @@ starship_precmd_user_func="set_win_title"
 export MANPATH=$MANPATH:$HOME/share/man
 
 export EDITOR=nvim
-export ZELLIJ_CONFIG_DIR='$HOME/.config/zellij'
+export ZELLIJ_CONFIG_DIR="$HOME/.config/zellij"
 
 
 export DOCKER_HOST=tcp://172.26.19.96:2375
